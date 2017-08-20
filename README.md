@@ -8,5 +8,5 @@
 
 - - - - - - - - - - - - - - - - - 
 ### 참조
-+ [thoughtbot](https://github.com/thoughtbot/til#today-i-learned, thoughtbot link)
-+ [JayJin](https://github.com/milooy/TIL, JayJin link)
++ [thoughtbot](https://github.com/thoughtbot/til#today-i-learned, "thoughtbot link")
++ [JayJin](https://github.com/milooy/TIL, "JayJin link")

@@ -58,6 +58,31 @@ Python 3에서 지원하는 Comprehension
 [6, 12]
 ```
 
+**추가로,**
+
+보통 list에 불필요한 값은 밑줄로 표기한다.
+```python
+zeroes = [0 for _ in numbers]  # zeroes는 numbers와 동일한 길이
+```
+
+List comprehension에는 여러 for를 포함시킬 수 있다.
+
+```python
+pairs = [(x,y)
+		for x in range(10)
+		for y in range(10)]
+
+# (0,0) (0,1) ... (9,8) (9,9) 총 100개
+
+```
+
+뒤에 나오는 for는 앞에 나온 결과에 대해 반복한다.
+
+```python
+increasing_pairs = [(x,y)  							# x < y인 경우만 해당
+						for x in range(10)			# range(low, high)는 [low, low + 1, ..., hi - 1]을 의미함
+						for y in range(x + 1, 10)]
+```
 
 2.Set Comprehension
 
@@ -74,3 +99,10 @@ List Comprehension과 거의 같지만, 결과가 Set으로 반환된다는 점�
 ```python
 {Key:Value for 항목 in 반복가능객체 [if 조건]}
 ```
+
+<br>
+-----
+# REFERENCES
+* [초보몽키의 개발공부로그](https://wayhome25.github.io/python/2017/02/26/py-17-comprehension/)
+* [점프 투 파이썬](https://wikidocs.net/22)
+* [PythonStudy.com](http://pythonstudy.xyz/python/article/22-Python-Comprehension)

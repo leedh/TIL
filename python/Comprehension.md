@@ -16,7 +16,7 @@ Python 3에서 지원하는 Comprehension
 
 <br>
 
-1.List Comprehension
+## 1.List Comprehension
 
 
 정의 : 반복가능객체로 부터 항목을 가져와 지정된 표현식에 따라 새로운 리스트 컬렉션을 생성하는 것
@@ -58,7 +58,8 @@ Python 3에서 지원하는 Comprehension
 [6, 12]
 ```
 
-**추가로,**
+<br>
+### **추가로,**
 
 보통 list에 불필요한 값은 밑줄로 표기한다.
 ```python
@@ -79,12 +80,12 @@ pairs = [(x,y)
 뒤에 나오는 for는 앞에 나온 결과에 대해 반복한다.
 
 ```python
-increasing_pairs = [(x,y)  							# x < y인 경우만 해당
-						for x in range(10)			# range(low, high)는 [low, low + 1, ..., hi - 1]을 의미함
+increasing_pairs = [(x,y)  # x < y인 경우만 해당
+						for x in range(10)	# range(low, high)는 [low, low + 1, ..., hi - 1]을 의미함
 						for y in range(x + 1, 10)]
 ```
 
-2.Set Comprehension
+## 2.Set Comprehension
 
 List Comprehension과 거의 같지만, 결과가 Set으로 반환된다는 점이 다르다.
 
@@ -92,7 +93,7 @@ List Comprehension과 거의 같지만, 결과가 Set으로 반환된다는 점�
 {표현식 for 항목 in 반복가능객체 [if 조건]}
 ```
 
-3.Dictionary Comprehension
+## 3.Dictionary Comprehension
 
 마찬가지로 List Comprehension이나 Set Comprehension과 거의 같지만 표현식이 Key:Value이며, 결과로 Dict가 반환된다는 점이 다르다.
 

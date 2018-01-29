@@ -59,7 +59,7 @@ Python 3에서 지원하는 Comprehension
 ```
 
 <br>
-### **추가로,**
+### 추가로,
 
 보통 list에 불필요한 값은 밑줄로 표기한다.
 ```python

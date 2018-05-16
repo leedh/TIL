@@ -31,12 +31,13 @@
 
 
 
-## A. 수학과 통계 지식 Math & Statistics Knowledge
+## A. 수학과 통계 지식 Math & Statistics Knowledge <a name="#a-----------math---statistics-knowledge"></a>
 
 ### 기초 수학
 * 선형대수학
 	- [[MIT OCW] Prof. Gilbert Strang - Linear Algebra ](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm)
 		+ 저자 직강. 선형대수학의 바이블같은 느낌. 
+		+ http://web.mit.edu/18.06/www/
 	- [한양대 이상화 교수 선형대수학 강의](https://www.youtube.com/playlist?list=PLSN_PltQeOyjDGSghAf92VhdMBeaLZWR3) / [KOCW페이지](http://www.kocw.net/home/cview.do?cid=e3763e4456cf47ed)
 	- [인공지능을 위한 선형대수](http://www.edwith.org/linearalgebra4ai)
 	- [[칸아카데미] 선형대수학](https://en.khanacademy.org/math/linear-algebra)
@@ -85,7 +86,7 @@
 
 -----
 
-## B. 해킹 실력 hacking Skills
+## B. 해킹 실력 hacking Skills <a name="b-------hacking-skills"></a>
 
 ### 컴퓨터 과학 Computer Science
 * [< Hello, Digital World >](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=114641211)
@@ -172,7 +173,7 @@
 
 -----
 
-## C. 도메인 전문성 Substantive Expertise
+## C. 도메인 전문성 Substantive Expertise <a name="c---------substantive-expertise"></a>
 
 ### 프로젝트
 * Kaggle
@@ -186,7 +187,7 @@
 
 
 ----
-## Appendix
+## Appendix <a name="appendix"></a>
 ### 데이터과학 전반적인 개념
 * [[coursera] Data Science](https://www.coursera.org/specializations/jhu-data-science)
 	- 유료이고 이수증 준다. 매우 괜찮은 강의.

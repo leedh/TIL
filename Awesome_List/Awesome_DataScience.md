@@ -7,6 +7,9 @@
 
 * [A. 수학과 통계 지식 Math & Statistics Knowledge](#math-statistics-knowledge)
 	+ 기초 수학
+	+ 수리통계학
+	+ 회귀분석
+	+ 통계적추론
 	+ 머신러닝 Machine Learning / 데이터 마이닝 Data Mining
 * [B. 해킹 실력 hacking Skills](#hacking-skills)
 	+ 컴퓨터 과학 Computer Science
@@ -38,6 +41,7 @@
 	- [[MIT OCW] Prof. Gilbert Strang - Linear Algebra ](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm)
 		+ 저자 직강. 선형대수학의 바이블같은 느낌. 
 		+ http://web.mit.edu/18.06/www/
+		+ **[공부의 흔적](https://github.com/leedh/TIL/blob/master/data_science/mathmatics/LinearAlgebra.md)**
 	- [한양대 이상화 교수 선형대수학 강의](https://www.youtube.com/playlist?list=PLSN_PltQeOyjDGSghAf92VhdMBeaLZWR3) / [KOCW페이지](http://www.kocw.net/home/cview.do?cid=e3763e4456cf47ed)
 	- [인공지능을 위한 선형대수](http://www.edwith.org/linearalgebra4ai)
 	- [[칸아카데미] 선형대수학](https://en.khanacademy.org/math/linear-algebra)
@@ -62,6 +66,12 @@
 * [[K-MOOC] Mathematical Fundamentals for Data Science](http://www.kmooc.kr/courses/course-v1:KoreaUnivK+ku_eng_002+2018_A027/about)
 * [<
 처음 배우는 딥러닝 수학 >](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=131140768)
+
+###수리통계학
+
+###회귀분석
+
+###통계적추론
 
 ### 머신러닝 Machine Learning / 데이터 마이닝 Data Mining
 * [<파이썬 라이브러리를 활용한 머신러닝>](https://tensorflow.blog/파이썬-머신러닝/)
@@ -92,6 +102,7 @@
 * [< Hello, Digital World >](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=114641211)
 * [Harvard CS50](http://www.edwith.org/connect_cs)
 * <하루3분 네트워크 교실>
+	- **[공부의 흔적](https://github.com/leedh/TIL/blob/master/computer_science/%5B네트워크%5D0-overview.md)** 
 * [<컴퓨터사이언스 부트캠프 with Python>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=133683646)
 
 ### 리눅스 Linux / 커맨드 라인 인터페이스 CLI
@@ -257,4 +268,3 @@
 # Reference <a name="reference"></a>
 
 - [주재걸 교수의 '기계학습/인공지능 공부 첫걸음을 위한 조언'](https://blog.naver.com/joyfull1/221004891456)
-- 

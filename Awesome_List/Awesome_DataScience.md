@@ -5,33 +5,33 @@
 
 ## Table of Contents
 
-* [A. 수학과 통계 지식 Math & Statistics Knowledge](#a-----------math---statistics-knowledge)
-	+ [기초 수학](#-----)
-	+ [머신러닝 Machine Learning / 데이터 마이닝 Data Mining](#-----machine-learning-----------data-mining)
-* [B. 해킹 실력 hacking Skills](#b-------hacking-skills)
-	+ [컴퓨터 과학 Computer Science](#-------computer-science)
-	+ [리눅스 Linux / 커맨드 라인 인터페이스 CLI](#----linux----------------cli)
-	+ [프로그래밍 언어 Programming Language](#---------programming-language)
-	+ [자료구조와 알고리즘](#----------)
-	+ [데이터 엔지니어링(데이터베이스)](#-----------------)
-	+ [분산처리](#----)
-	+ [클라우드](#----)
-* [C. 도메인 전문성 Substantive Expertise](#c---------substantive-expertise)
-	+ [프로젝트](#----)
+* [A. 수학과 통계 지식 Math & Statistics Knowledge](#math-statistics-knowledge)
+	+ 기초 수학
+	+ 머신러닝 Machine Learning / 데이터 마이닝 Data Mining
+* [B. 해킹 실력 hacking Skills](#hacking-skills)
+	+ 컴퓨터 과학 Computer Science
+	+ 리눅스 Linux / 커맨드 라인 인터페이스 CLI
+	+ 프로그래밍 언어 Programming Language
+	+ 자료구조와 알고리즘
+	+ 데이터 엔지니어링(데이터베이스)
+	+ 분산처리
+	+ 클라우드
+* [C. 도메인 전문성 Substantive Expertise](#substantive-expertise)
+	+ 프로젝트
 * [Appendix](#appendix)
-	+ [데이터과학 전반적인 개념](#-------------)
-	+ [웹 크롤링](#-----)
-	+ [Git / Github](#git---github)
-	+ [Docker](#docker)
-	+ [블로거](#---)
-	+ [교양서](#---)
+	+ 데이터과학 전반적인 개념
+	+ 웹 크롤링
+	+ Git / Github
+	+ Docker
+	+ 블로거
+	+ 교양서
 - [Reference](#reference)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 
-## A. 수학과 통계 지식 Math & Statistics Knowledge <a name="#a-----------math---statistics-knowledge"></a>
+## A. 수학과 통계 지식 Math & Statistics Knowledge <a name="math-statistics-knowledge"></a>
 
 ### 기초 수학
 * 선형대수학
@@ -86,7 +86,7 @@
 
 -----
 
-## B. 해킹 실력 hacking Skills <a name="b-------hacking-skills"></a>
+## B. 해킹 실력 hacking Skills <a name="hacking-skills"></a>
 
 ### 컴퓨터 과학 Computer Science
 * [< Hello, Digital World >](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=114641211)
@@ -173,7 +173,7 @@
 
 -----
 
-## C. 도메인 전문성 Substantive Expertise <a name="c---------substantive-expertise"></a>
+## C. 도메인 전문성 Substantive Expertise <a name="substantive-expertise"></a>
 
 ### 프로젝트
 * Kaggle
@@ -254,7 +254,7 @@
 
 	
 -------
-# Reference
+# Reference <a name="reference"></a>
 
 - [주재걸 교수의 '기계학습/인공지능 공부 첫걸음을 위한 조언'](https://blog.naver.com/joyfull1/221004891456)
 - 

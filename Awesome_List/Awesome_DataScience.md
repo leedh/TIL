@@ -1,7 +1,35 @@
-# 데이터사이언스 로드맵 Ver 1.5
+# 데이터사이언스 로드맵 Ver 1.6
 
 
 ![?](http://dl.dropbox.com/s/sml3geg2zt5czyc/main-qimg-97f135e0156001793cda8d586ed096f1.png)
+
+## Table of Contents
+
+* [A. 수학과 통계 지식 Math & Statistics Knowledge](#a-----------math---statistics-knowledge)
+	+ [기초 수학](#-----)
+	+ [머신러닝 Machine Learning / 데이터 마이닝 Data Mining](#-----machine-learning-----------data-mining)
+* [B. 해킹 실력 hacking Skills](#b-------hacking-skills)
+	+ [컴퓨터 과학 Computer Science](#-------computer-science)
+	+ [리눅스 Linux / 커맨드 라인 인터페이스 CLI](#----linux----------------cli)
+	+ [프로그래밍 언어 Programming Language](#---------programming-language)
+	+ [자료구조와 알고리즘](#----------)
+	+ [데이터 엔지니어링(데이터베이스)](#-----------------)
+	+ [분산처리](#----)
+	+ [클라우드](#----)
+* [C. 도메인 전문성 Substantive Expertise](#c---------substantive-expertise)
+	+ [프로젝트](#----)
+* [Appendix](#appendix)
+	+ [데이터과학 전반적인 개념](#-------------)
+	+ [웹 크롤링](#-----)
+	+ [Git / Github](#git---github)
+	+ [Docker](#docker)
+	+ [블로거](#---)
+	+ [교양서](#---)
+- [Reference](#reference)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 
 ## A. 수학과 통계 지식 Math & Statistics Knowledge
 

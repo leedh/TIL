@@ -8,10 +8,10 @@
 - 한영 용어 번역은 [수리과학연구정보센터의 수학용어 검색](http://www.mathnet.or.kr/new_sub05/sub05_04.php)을 참고
 
 
-## 내용
+## 목차
 
 ### 1. Introduction to Vectors
-1. Vectors and Linear Combinations 
+1. Vectors and Linear Combinations
 2. Lengths and Dot products
 3. Matrices (Matrix의 복수형)
 
@@ -24,6 +24,11 @@
 6. Elimination = Factorization: A = LU
 7. Transposes and Permutations
 
-
-
+### 3. Vector Spaces and Subspaces
+1. Spaces of Vectors
+2. The nullspace of A: Solving Ax = 0
+3. The Rank and the Row Reduced Form
+4. The Complete Solution to Ax = b
+5. Independence, Basis and Dimension
+6. Dimensions of the Four Subspaces
 

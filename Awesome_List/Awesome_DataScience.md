@@ -36,12 +36,11 @@
 
 ## A. 수학과 통계 지식 Math & Statistics Knowledge <a name="math-statistics-knowledge"></a>
 
-### 기초 수학
+### 기초 수학 - **[공부의 흔적](https://github.com/leedh/TIL/tree/master/data_science/mathmatics)**
 * 선형대수학
 	- [[MIT OCW] Prof. Gilbert Strang - Linear Algebra ](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm)
 		+ 저자 직강. 선형대수학의 바이블같은 느낌. 
 		+ http://web.mit.edu/18.06/www/
-		+ **[공부의 흔적](https://github.com/leedh/TIL/blob/master/data_science/mathmatics/LinearAlgebra.md)**
 	- [한양대 이상화 교수 선형대수학 강의](https://www.youtube.com/playlist?list=PLSN_PltQeOyjDGSghAf92VhdMBeaLZWR3) / [KOCW페이지](http://www.kocw.net/home/cview.do?cid=e3763e4456cf47ed)
 	- [인공지능을 위한 선형대수](http://www.edwith.org/linearalgebra4ai)
 	- [[칸아카데미] 선형대수학](https://en.khanacademy.org/math/linear-algebra)
@@ -98,11 +97,10 @@
 
 ## B. 해킹 실력 hacking Skills <a name="hacking-skills"></a>
 
-### 컴퓨터 과학 Computer Science
+### 컴퓨터 과학 Computer Science - **[공부의 흔적](https://github.com/leedh/TIL/blob/master/computer_science/)**
 * [< Hello, Digital World >](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=114641211)
 * [Harvard CS50](http://www.edwith.org/connect_cs)
 * <하루3분 네트워크 교실>
-	- **[공부의 흔적](https://github.com/leedh/TIL/blob/master/computer_science/%5B네트워크%5D0-overview.md)** 
 * [<컴퓨터사이언스 부트캠프 with Python>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=133683646)
 
 ### 리눅스 Linux / 커맨드 라인 인터페이스 CLI

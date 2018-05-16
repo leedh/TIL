@@ -93,7 +93,8 @@ ORDER BY _속성이름_
 
 
 ### REFERENCE
-- [MySQL 공식 문서] (https://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html)
+- [MySQL 공식 문서](https://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html)
 - [데이터분석, 먹고 들어가기 위한 SQL 공부법(1편)](https://brunch.co.kr/@minu-log/5)
 - [데이터분석, 먹고 들어가기 위한 SQL 공부법(2편)](https://brunch.co.kr/@minu-log/6)
 - [SQL 문법 정리 - SELECT](http://psun.tistory.com/entry/SQL-문법-정리)
+- [[DataCamp] SQL Tutorial for Marketers](https://www.datacamp.com/community/open-courses/sql-tutorial-for-marketers)

@@ -16,7 +16,7 @@
 	+ 리눅스 Linux / 커맨드 라인 인터페이스 CLI
 	+ 프로그래밍 언어 Programming Language
 	+ 자료구조와 알고리즘
-	+ 데이터 엔지니어링(데이터베이스)
+	+ 데이터베이스
 	+ 분산처리
 	+ 네트워크 / 클라우드
 * [C. 도메인 전문성 Substantive Expertise](#substantive-expertise)

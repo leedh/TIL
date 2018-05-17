@@ -18,7 +18,7 @@
 	+ 자료구조와 알고리즘
 	+ 데이터 엔지니어링(데이터베이스)
 	+ 분산처리
-	+ 클라우드
+	+ 네트워크 / 클라우드
 * [C. 도메인 전문성 Substantive Expertise](#substantive-expertise)
 	+ 프로젝트
 * [Appendix](#appendix)
@@ -100,7 +100,6 @@
 ### 컴퓨터 과학 Computer Science - **[공부의 흔적](https://github.com/leedh/TIL/blob/master/computer_science/)**
 * [< Hello, Digital World >](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=114641211)
 * [Harvard CS50](http://www.edwith.org/connect_cs)
-* <하루3분 네트워크 교실>
 * [<컴퓨터사이언스 부트캠프 with Python>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=133683646)
 
 ### 리눅스 Linux / 커맨드 라인 인터페이스 CLI
@@ -172,7 +171,8 @@
 	- [[SKtechx T아카데미] 빅데이터 입문 Apache spark](https://tacademy.sktechx.com/live/player/onlineLectureDetail.action?seq=115)
 * Apache Spark
 
-### 클라우드
+### 네트워크 / 클라우드
+* <하루3분 네트워크 교실>
 * [[생활코딩] Amazon Web Service](https://opentutorials.org/course/2717)
 * [<아마존 웹 서비스를 다루는 기술: 실무에서 필요한 AWS 클라우드의 모든 것>](http://pyrasis.com/book/TheArtOfAmazonWebServices)
 	- 웹에 전부 공개된 책

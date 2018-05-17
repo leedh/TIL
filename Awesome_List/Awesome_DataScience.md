@@ -36,7 +36,7 @@
 
 ## A. 수학과 통계 지식 Math & Statistics Knowledge <a name="math-statistics-knowledge"></a>
 
-### 기초 수학 - **[공부의 흔적](https://github.com/leedh/TIL/tree/master/data_science/mathmatics)**
+### 기초 수학 - **[공부의 흔적](https://github.com/leedh/TIL/tree/master/mathmatics)**
 * 선형대수학
 	- [[MIT OCW] Prof. Gilbert Strang - Linear Algebra ](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/index.htm)
 		+ 저자 직강. 선형대수학의 바이블같은 느낌. 

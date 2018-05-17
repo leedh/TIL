@@ -157,7 +157,7 @@
 	* [[SKtechx T아카데미] 컴퓨터 알고리즘 초급](https://tacademy.sktechx.com/live/player/onlineLectureDetail.action?seq=83)
 
 
-### 데이터 엔지니어링(데이터베이스)
+### 데이터베이스
 * [[coursera] SQL for Data Science](https://www.coursera.org/learn/sql-for-data-science)
 * [[SKtechx Tacademy] DataBase](https://www.youtube.com/playlist?list=PLBHVuYlKEkUI4yoqSdhN8mkGk6lts6HxD)
 * [[생활코딩] MySQL 강좌](https://www.inflearn.com/course/mysql-강좌/)
@@ -171,7 +171,7 @@
 	- [[SKtechx T아카데미] 빅데이터 입문 Apache spark](https://tacademy.sktechx.com/live/player/onlineLectureDetail.action?seq=115)
 * Apache Spark
 
-### 네트워크 / 클라우드
+### 네트워크 / 클라우드 - [공부의 흔적](https://github.com/leedh/TIL/tree/master/network%2Bcloud)
 * <하루3분 네트워크 교실>
 * [[생활코딩] Amazon Web Service](https://opentutorials.org/course/2717)
 * [<아마존 웹 서비스를 다루는 기술: 실무에서 필요한 AWS 클라우드의 모든 것>](http://pyrasis.com/book/TheArtOfAmazonWebServices)

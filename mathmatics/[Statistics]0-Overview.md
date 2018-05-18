@@ -58,12 +58,12 @@ cf. 범주형 = 명목형 + 순서형
 
 
 ## 1-3. 기술통계량
-###대표값(중심경향, Measure of Centrality)
+### 대표값(중심경향, Measure of Centrality)
 - 평균(Mean; 일반적으로 산술평균)
 - 중앙값(Median; 중위수)
 - 최빈값(Mode)
 
-###산포도(Measure of Dispersion)
+### 산포도(Measure of Dispersion)
 - 편차(Deviation)
 - 분산(Variance) : 편차(평균고의 차이)의 제곱합을 자유도 n-1로 나눈 것
 - 표준편차(Standard Deviation) : 분산에 제곱근을 취한 것

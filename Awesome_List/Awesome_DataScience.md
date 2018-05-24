@@ -53,6 +53,7 @@
 	- <세상에서 가장쉬운 통계학입문>
 	- <세상에서 가장 쉬운 베이즈통계학 입문>
 	- [<그림으로 설명하는 개념 쏙쏙 통계학 >](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=124768849)
+	- [[Coursera] Statistics with R](https://www.coursera.org/specializations/statistics)
 * 미적분
 	- [<기초 미분적분학(개정판) : Pre Calculus>](http://www.hanbit.co.kr/store/books/look.php?p_code=B4269451663)
 	- [[K-MOOC]알고 보면 쉬운 미적분 이론](http://www.kmooc.kr/courses/course-v1:POSTECHk+MATH311+2017-T1/about)

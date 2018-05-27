@@ -150,6 +150,8 @@
 * 자료구조
 	- [[edwith] 2018 데이터 구조 및 분석](http://www.edwith.org/datastructure-2018s)
 * 알고리즘
+	* [<알고리즘 도감>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=132628472)
+		* 쉬워서 강추 
 	* [알고리즘 깔끔하게 보여주는 사이트](https://visualgo.net/en) 
 	* [알고리즘 연습](https://programmers.co.kr/learn/challenges)
 	* <누워서 읽는 알고리즘>

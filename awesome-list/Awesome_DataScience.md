@@ -60,7 +60,7 @@
 	- [<미분적분학 에센스>](http://www.hanbit.co.kr/store/books/look.php?p_code=B1088651249)
 	- [<미분적분학 바이블>](http://www.hanbit.co.kr/store/books/look.php?p_code=B1246753904)
 	- [[K-MOOC]미적분학 I - 활용을 중심으로](http://www.kmooc.kr/courses/course-v1:SKKUk+SKKU_EXGB506_01K+2018_SKKU02/about)
-	- [[K-MOOC]미적분학Ⅱ-다변수 미적분학](http://www.kmooc.kr/courses/course-v1:SKKUk+SKKU_2017_05-01+2017_SKKU01/about)
+	- [[K-MOOC]미적분학Ⅱ - 다변수 미적분학](http://www.kmooc.kr/courses/course-v1:SKKUk+SKKU_2017_05-01+2017_SKKU01/about)
 
 * [<공학도라면 반드시 알아야 할 최소한의 수학>](http://www.hanbit.co.kr/store/books/look.php?p_code=B8989799073)
 * [[K-MOOC] Mathematical Fundamentals for Data Science](http://www.kmooc.kr/courses/course-v1:KoreaUnivK+ku_eng_002+2018_A027/about)
@@ -68,6 +68,7 @@
 처음 배우는 딥러닝 수학 >](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=131140768)
 
 ###수리통계학
+* [국민대 강주성 교수 수리통계학 강의](http://ocw.kookmin.ac.kr/?course=12343)
 
 ###회귀분석
 
@@ -78,8 +79,7 @@
 * [해커에게 전해들은 머신러닝 시리즈](https://tensorflow.blog/2016/10/31/해커에게-전해들은-머신러닝/)
 * [<기초 수학으로 이해하는 머신러닝 알고리즘>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=133548315)
 * [<그림과 수식으로 배우는 통통 머신러닝>](http://jpub.tistory.com/722)
-* [<
-파이썬 라이브러리를 활용한 머신러닝 : 사이킷런 핵심 개발자가 쓴 머신러닝과 데이터 과학 실무서>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=112158396)
+* [<파이썬 라이브러리를 활용한 머신러닝 : 사이킷런 핵심 개발자가 쓴 머신러닝과 데이터 과학 실무서>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=112158396)
 * [<
 핸즈온 머신러닝 - 사이킷런과 텐서플로를 활용한 머신러닝, 딥러닝 실무>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=142196914)
 * [구글 머신러닝 단기 특강](https://developers.google.com/machine-learning/crash-course/)
@@ -161,6 +161,7 @@
 
 
 ### 데이터베이스
+* [[KOCW]이화여대 용환승 교수 데이터베이스 강의](http://www.kocw.net/home/search/kemView.do?kemId=1064626)
 * [[coursera] SQL for Data Science](https://www.coursera.org/learn/sql-for-data-science)
 * [[SKtechx Tacademy] DataBase](https://www.youtube.com/playlist?list=PLBHVuYlKEkUI4yoqSdhN8mkGk6lts6HxD)
 * [[생활코딩] MySQL 강좌](https://www.inflearn.com/course/mysql-강좌/)

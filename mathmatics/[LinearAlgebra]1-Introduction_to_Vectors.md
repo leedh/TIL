@@ -19,7 +19,7 @@
 	3. A linear combination of three vectors ![u](https://latex.codecogs.com/gif.latex?u) and ![v](https://latex.codecogs.com/gif.latex?v) and ![w](https://latex.codecogs.com/gif.latex?w) is ![cu+dv+ew](https://latex.codecogs.com/gif.latex?cu&plus;dv&plus;ew).
 	4. Take ![all](https://latex.codecogs.com/gif.latex?all) linear combinations of ![u](https://latex.codecogs.com/gif.latex?u), or ![u&v](https://latex.codecogs.com/gif.latex?u,v), or ![u&v&w](https://latex.codecogs.com/gif.latex?u,v,w). In three dimensions, those combinations typically fill a line, then a plane, and the whole space ![R^3](https://latex.codecogs.com/gif.latex?R_3).
 
-### 2. Lengths and Dot products
+### 2. Lengths and Dot Products
 
 
 

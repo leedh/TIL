@@ -11,6 +11,7 @@
 * [[edwith] CSS 심화](http://www.edwith.org/codingd_css/joinLectures/9904)
 * [[elice] HTML/CSS](https://academy.elice.io/courses/286)
 * [[Flearning] 프론트앤드 시작하기](https://www.flearning.net/courses/1)
+* [<처음 만나는 HTML5 & CSS3>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=125179836)
 
 ### Javascript
 * [Udemy Korea](https://www.udemy.com/softcampus-javascript/)
@@ -40,9 +41,15 @@
 
 ---
 ## Appendix
+### 컴퓨터
+* [<그림으로 공부하는 IT 인프라 구조>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=62754081)
+
 ### 웹개발 전반적인 개념
 * [[edwith] Full-Stack Web Developer](http://www.edwith.org/boostcourse-web)
 * [[Flearning]웹 포트폴리오 과정](https://www.flearning.net/courses/5)
+
+### 파이썬
+* [<코딩 부트캠프 with 파이썬>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=134017766)
 
 ### C언어
 C언어는 Unmanaged 언어이며, 이는 프로그래밍을 이해하는 데 큰 도움이 된다.(참고로 Python은 Managed 언어) / 관련 영상: [포프TV영상](https://www.youtube.com/watch?v=ESU2IkFj9VM&t=29s)

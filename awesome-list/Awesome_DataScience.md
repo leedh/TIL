@@ -158,6 +158,7 @@
 	* [[SKtechx Tacademy] 컴퓨터 알고리즘 초급](https://tacademy.sktechx.com/live/player/onlineLectureDetail.action?seq=83)
 	* [영리한 프로그래밍을 위한 알고리즘 강좌](https://www.inflearn.com/course/알고리즘-강좌/)
 	* [[SKtechx T아카데미] 컴퓨터 알고리즘 초급](https://tacademy.sktechx.com/live/player/onlineLectureDetail.action?seq=83)
+	* [<모두의 알고리즘 with 파이썬>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=112153576)
 
 
 ### 데이터베이스
@@ -183,6 +184,7 @@
 * [<그림으로 배우는 클라우드>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=110192008)
 * [<예제를 통해 쉽게 따라하는 아마존 웹 서비스 AWS(Amazon Web Services)>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=107257531)
 * [< Amazon Web Services로 시작하는 클라우드 입문 >](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=138435097)
+* [<손으로 익히며 배우는 네트워크 첫걸음>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=116856536)
 
 -----
 

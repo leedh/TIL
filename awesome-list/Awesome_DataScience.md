@@ -93,6 +93,7 @@
 	- 학부수준에서 최고의 교재  
 * [<데이터마이닝 개념과 기법>](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=56719832)
 	- 872쪽. 방대한 양을 다룬다.
+* [NYU 조경현교수님 머신러닝 강의](https://sites.google.com/site/deepernn/home/blog/lecturenotebriefintroductiontomachinelearningwithoutdeeplearning)
 
 -----
 

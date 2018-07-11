@@ -5,7 +5,7 @@
 ### DB 서버
 https://hub.docker.com/r/wnameless/oracle-xe-11g/
 
-![pull](https://imgur.com/a/1yQJniu)
+![pull](https://imgur.com/TcwtlXX) 
 > docker pull wnameless/oracle-xe-11g
 
 : 이미지 가져오기(pull)

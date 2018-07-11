@@ -5,13 +5,14 @@
 ### DB 서버
 https://hub.docker.com/r/wnameless/oracle-xe-11g/
 
-![pull](https://imgur.com/TcwtlXX) 
+![Imgur](https://i.imgur.com/TcwtlXX.png)
 > docker pull wnameless/oracle-xe-11g
 
 : 이미지 가져오기(pull)
 
+<br>
 
-![run](https://imgur.com/a/EKX9Mk1)
+![Imgur](https://i.imgur.com/GWfDRjC.png)
 > docker run --name oracle11g -d -p 59160:22 -p 59161:1521 wnameless/oracle-xe-11g
 
 : 가져온 이미지 run
@@ -29,10 +30,10 @@ Oracle SQL developer
 
 JDK 8 이상 필요 [설치](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-![jkd](https://imgur.com/a/KW8gxaE)
+![Imgur](https://i.imgur.com/eOx4bav.png)
 
 
-![sql_developer](https://imgur.com/a/2K9TVom)
+![Imgur](https://i.imgur.com/iaDuNWm.png)
 
 
 ## 참고문헌

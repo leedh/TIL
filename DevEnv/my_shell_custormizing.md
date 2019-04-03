@@ -60,7 +60,7 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 
 oh my zsh를 설치하고 난 후, 터미널에 `$ open ~/.zshrc`를 치면 아래와 같은 텍스트파일을 볼 수 있다. 이곳에서 custormizing을 해준다. 
 
-![1](./img/zshrc_example.png)
+![1](../img/zshrc_example.png)
 
 (참고) zshrc에서 rc는 *run command*의 약자란다.
 
@@ -110,7 +110,7 @@ plugins=(
 
 
 
-![2](./img/color_setup.png)
+![2](../img/color_setup.png)
 
 import누르고 `Dracula.itermcolors`를 고른다. [Dracula Theme](https://github.com/dracula/dracula-theme/)이 내 취향이다.
 
@@ -136,7 +136,7 @@ $ brew cask install font-hack-nerd-font
 
 개인적으로 선호하는 셋팅은 글씨크기 *18px* / *Vertical space 120%*
 
-![3](./img/font_setup.png)
+![3](../img/font_setup.png)
 
 
 

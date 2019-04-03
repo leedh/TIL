@@ -199,7 +199,7 @@ $ echo 'source  ~/powerlevel9k/powerlevel9k.zsh-theme' >> ~/.zshrc
 > POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(ssh time)
 > POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 >
-> # #reversed time format
+> #reversed time format
 >
 > POWERLEVEL9K_TIME_FORMAT='%D{%H:%M:%S}'
 
@@ -229,7 +229,7 @@ $ echo 'source  ~/powerlevel9k/powerlevel9k.zsh-theme' >> ~/.zshrc
 
 
 
-## 참고
+# 참고
 
 [How you can style your terminal like Medium, freeCodeCamp, or any way you want](https://medium.freecodecamp.org/how-you-can-style-your-terminal-like-medium-freecodecamp-or-any-way-you-want-f499234d48bc#c8bd)
 

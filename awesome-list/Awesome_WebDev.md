@@ -15,9 +15,9 @@
 
 ### Javascript
 * [Udemy Korea](https://www.udemy.com/softcampus-javascript/)
+* <모던 자바스크립트 입문>
 
 ### 그 외
-
 
 ---
 
@@ -37,7 +37,6 @@
 ## C. 데이터베이스 Database
 * [[SKtechx T아카데미] 데이터베이스](https://tacademy.sktechx.com/live/player/onlineLectureDetail.action?seq=72)
 * [[SKtechx T아카데미] AWS Essentials](https://tacademy.sktechx.com/live/player/onlineLectureDetail.action?seq=86)
-
 
 ---
 ## Appendix

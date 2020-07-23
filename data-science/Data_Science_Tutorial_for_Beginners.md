@@ -1,5 +1,5 @@
 ## 1. Introduction to Python:
- 
+
 1. Matplotlib 
 	* 간단한 라인, 산점도, 히스토그램 그래프그리기 좋다.
 		- 라인 그래프 : X축이 시간일 때 좋다.
@@ -14,7 +14,7 @@
 			plt.xlabel('x axis')              # label = name of label
 			plt.ylabel('y axis')
 			plt.title('Line Plot')            # title = title of plot
-			``` 
+			```
 		- 산점도 : 두 변수간 상관관계가 있을 때 좋다.
 			
 			
@@ -25,7 +25,7 @@
 			plt.xlabel('Attack')              # label = name of label
 			plt.ylabel('Defence')
 			plt.title('Attack Defense Scatter Plot')            # title = title of plot
-			``` 
+			```
 		- 히스토그램 : 수치형 데이터의 분포를 보고 싶을 때 좋다.
 			
 			
@@ -33,7 +33,7 @@
 			# Histogram
 			# bins = number of bar in figure
 			data.Speed.plot(kind = 'hist',bins = 50,figsize = (15,15))
-			``` 
+			```
 	* `clf()` : 이 함수는 matplotlib이 시각화하여 표현하기 위해 사용된 내부 구조를 지운다. 다른 그래프를 그리기 전에 이 함수를 호출하자.
 	
 		```python
@@ -41,7 +41,7 @@
 		data.Speed.plot(kind = 'hist',bins = 50)
 		plt.clf()
 		# We cannot see plot due to clf()
-		``` 
+		```
 	* [Matplotlib 한글 설명](http://www.kucomputationalthink.org/index.php/chapter-5/5-4-visualization/)
 2. Dictionaries
 	* 왜 사전형이 필요한가?
@@ -75,7 +75,7 @@
 		number_list = [1,2,3]
 		y = map(lambda x:x**2,number_list)
 		print(list(y))
-		``` 
+		 ```
 		
 	7. Iterators
 		* iterable is an object that can return an iterator 순환 가능한 객체
@@ -91,7 +91,7 @@ example: list, strings and dictionaries
 			num1 = [1,2,3]
 			num2 = [i + 1 for i in num1 ]
 			print(num2)
-			``` 	
+			```
 			- [i + 1 for i in num1 ]: list of comprehension 
 			- i +1: list comprehension syntax 
 			- for i in num1: for loop syntax 
@@ -160,7 +160,7 @@ example: list, strings and dictionaries
 				* `method`인자로 `ffil`과 `bfill` 선택 가능  
 			+ 예시
 				* `data.country = data.country.fillna('')` : country 열에 있는 NaN 값을 빈문자열로 바꾸기
-				* `data.duration = data.duration.fillna(np.mean(df.duration))` : duration이란 열에 있는 NaN 값을 duration열의 평균으로 바꾸기  	
+					 `data.duration = data.duration.fillna(np.mean(df.duration))` : duration이란 열에 있는 NaN 값을 duration열의 평균으로 바꾸기  	
 		- `df.dropna()` : NA값을 가진 로우를 지운다. `axis=1`는 NA값을 가진 칼럼 지움.
 			+ dropna()의 여러 인자들
 				* `df.dropna(how='all')` : 모든 열이 NA값인 로우를 지운다.
@@ -189,55 +189,57 @@ example: list, strings and dictionaries
 			+ `data = data.rename(columns = {‘title_year’:’release_date’, ‘movie_facebook_likes’:’facebook_likes’})`
 
 
-	2. Exploratory Data Analysis(EDA)
-		* 목적
-			- **a good knowledge of your data** to either get the answers that you need or to develop an intuition for interpreting the results of future modeling
-				+ answer questions
-				+ test business assumptions
-				+ generate hypotheses for further analysis
-				+ prepare the data for modeling
-			- EDA와 데이터 마이닝 EDA and Data Mining(DM)
-				+ EDA와 DA는 비슷하지만 구분해야한다.
-				+ In EDA, you typically explore and compare many different variables with a variety of techniques _to search and find systematic patterns_
-				+ Data mining, on the other hand, is concerned with _extracting patterns from the data._ Those patterns provide **insights into relationships between variables** that can be used to improve business decisions.
-		* **data profiling**
-			+ summarizing your dataset through descriptive statistics
-			+ the goal of it is to have a solid understanding of your data 
-				 
-		* 기본적인 함수들
-			- `df.value_counts()` #dropna = False를 하면 NaN값도 같이 센다.
+```python
+2. Exploratory Data Analysis(EDA)
+	* 목적
+		- **a good knowledge of your data** to either get the answers that you need or to develop an intuition for interpreting the results of future modeling
+			+ answer questions
+            + test business assumptions
+			+ generate hypotheses for further analysis
+			+ prepare the data for modeling
+		- EDA와 데이터 마이닝 EDA and Data Mining(DM)
+			+ EDA와 DA는 비슷하지만 구분해야한다.
+			+ In EDA, you typically explore and compare many different variables with a variety of techniques _to search and find systematic patterns_
+			+ Data mining, on the other hand, is concerned with _extracting patterns from the data._ Those patterns provide **insights into relationships between variables** that can be used to improve business decisions.
+	* **data profiling**
+		+ summarizing your dataset through descriptive statistics
+		+ the goal of it is to have a solid understanding of your data 
 			 
-				 # normalize = True하면 퍼센트 나온다 
-				+ `df['column'].value_counts().plot(kind='bar')` : 간단한 바차트 그리기
-			- `df.describe()` #null값은 무시한다.
-	3. Visual exploratory data analysis
-		* **Box Plots** : 특이값, 최소값, 최대값, quantiles와 같은 기초 통계 시각화
-			* `df.boxplot(column = '컬럼1', by = '컬럼2'`
-	4. Tidy data 데이터 정돈
-		* 데이터 재구조화 (Reshaping data by **melt**
-		* `melt()` 는 ID 변수를 기준으로 원래 데이터셋에 있던 여러개의 칼럼 이름을 **'variable'** 칼럼에 위에서 아래로 길게 쌓아놓고, **'value'** 칼럼에 ID와 variable에 해당하는 값을 넣어주는 식으로 데이터를 재구조화합니다.
-		* `pd.melt(df,id_vars,var_name,value_name)`
-		* [pd.melt() 한글 설명](http://rfriend.tistory.com/tag/pd.melt%28%29)
-	5. Pivoting data
-		* `df.pivot(index,columns,values)`
-		* `pd.pivot_table(df, index, columns, values, aggfunc`
-		* `df.pivot()`과 `pd_pivot_table()`은 동일한 결과가 나온다. 댜만, df.pivot()로 하면 에러나는 경우가 종종 있으니 pivot_table()만 하는게 좋다. 에러나는 경우는 [df.pivot() 한글 설명](http://rfriend.tistory.com/275)을 참조하면 된다.
-	6. Concatenating data 데이터 연결짓기 **많이쓰겠네**
-		* 데이터의 속성 형태가 동일한 데이터셋 끼리 합칠 때 사용할 수 있는 방법 (R의 rbind(), cbind()와 유사)
-		* `pd.concat()`
-		* [pd.concat() 한글 설명](http://rfriend.tistory.com/256)
-	7. Data types
-		* 기본적인 데이터 타입 5개
-			- object(string)
-			- boolean
-			- integer
-			- float
-			- categorical 
-		* `df.dtypes`
-		* `df['column'].astype('dtype')`
-	8. Missing data and testing with assert
-		* `df.info()` : non-ull가 몇 개인지 보면 NaN값 정도를 알 수 있다.
-		* `df['칼럼명'].value_counts(dropna = False)` : 칼럼에 NaN이 몇 개인지 알 수 있다.
+	* 기본적인 함수들
+		- `df.value_counts()` #dropna = False를 하면 NaN값도 같이 센다.
+		 
+			 # normalize = True하면 퍼센트 나온다 
+			+ `df['column'].value_counts().plot(kind='bar')` : 간단한 바차트 그리기
+		- `df.describe()` #null값은 무시한다.
+3. Visual exploratory data analysis
+	* **Box Plots** : 특이값, 최소값, 최대값, quantiles와 같은 기초 통계 시각화
+		* `df.boxplot(column = '컬럼1', by = '컬럼2'`
+4. Tidy data 데이터 정돈
+	* 데이터 재구조화 (Reshaping data by **melt**
+	* `melt()` 는 ID 변수를 기준으로 원래 데이터셋에 있던 여러개의 칼럼 이름을 **'variable'** 칼럼에 위에서 아래로 길게 쌓아놓고, **'value'** 칼럼에 ID와 variable에 해당하는 값을 넣어주는 식으로 데이터를 재구조화합니다.
+	* `pd.melt(df,id_vars,var_name,value_name)`
+	* [pd.melt() 한글 설명](http://rfriend.tistory.com/tag/pd.melt%28%29)
+5. Pivoting data
+	* `df.pivot(index,columns,values)`
+	* `pd.pivot_table(df, index, columns, values, aggfunc`
+	* `df.pivot()`과 `pd_pivot_table()`은 동일한 결과가 나온다. 댜만, df.pivot()로 하면 에러나는 경우가 종종 있으니 pivot_table()만 하는게 좋다. 에러나는 경우는 [df.pivot() 한글 설명](http://rfriend.tistory.com/275)을 참조하면 된다.
+6. Concatenating data 데이터 연결짓기 **많이쓰겠네**
+	* 데이터의 속성 형태가 동일한 데이터셋 끼리 합칠 때 사용할 수 있는 방법 (R의 rbind(), cbind()와 유사)
+	* `pd.concat()`
+	* [pd.concat() 한글 설명](http://rfriend.tistory.com/256)
+7. Data types
+	* 기본적인 데이터 타입 5개
+		- object(string)
+		- boolean
+		- integer
+		- float
+		- categorical 
+	* `df.dtypes`
+	* `df['column'].astype('dtype')`
+8. Missing data and testing with assert
+	* `df.info()` : non-ull가 몇 개인지 보면 NaN값 정도를 알 수 있다.
+	* `df['칼럼명'].value_counts(dropna = False)` : 칼럼에 NaN이 몇 개인지 알 수 있다.
+```
 ## 4. Pandas Foundation
 1. Review of pandas
 	* single column = series
@@ -263,26 +265,26 @@ example: list, strings and dictionaries
 		```python
 		df["capital"] = ["madrid","paris"]
 		df
-		``` 
+		```
 	* Broadcasting: 새로운 칼럼을 만들면서 그 칼럼에 속한 값을 전부 같은 값으로 할당시키기.
 		
 		```python
 		df["income"] = 0 #Broadcasting entire column
 		df
-		``` 
+		```
 3. Visual exploratory data analysis
 	* Plot
 		- Scatter 산점도
 		
 		```python
 		data1.plot(kind = "scatter",x="Attack",y = "Defense")
-		```  
+		```
 	* Subplot : 그래프가 각각 따로따로 그려진다.
 	
 		```python
 		data1 = data.loc[:,["Attack","Defense","Speed"]]
 		data1.plot(subplots = True)
-		``` 
+		```
 	* Histogram 
 		- bins: number of bins
 		- range(tuble): min and max values of bins
@@ -341,17 +343,17 @@ print(type(data[["HP"]]))   # data frames
 		
 		```python
 		data.loc[1:10,"HP":"Defense"]   # 10열 그리고 "Defense"도 포함한다.
-		``` 
+		```
 	* Reverse slicing
 		
 		```python
 		data.loc[10:1:-1,"HP":"Defense"] 
-		``` 
+		```
 	* From something to end
 		
 		```python
 		data.loc[1:10,"Speed":] # Speed 이후의 칼럼이 다 나온다.
-		``` 
+		```
 3. Filtering data frames
 	* Creating boolean series
 	
@@ -370,7 +372,7 @@ print(type(data[["HP"]]))   # data frames
 		
 		```python
 		data.HP[data.Speed<15]
-		``` 
+		```
 4. Transforming data frames
 	* Plain python functions
 		
@@ -378,18 +380,18 @@ print(type(data[["HP"]]))   # data frames
 		def div(n):
 		    return n/2
 		data.HP.apply(div)
-		``` 
+		```
 	* Lambda function: to apply arbitrary python function to every element
 		
 		```python
 		data.HP.apply(lambda n : n/2)
-		``` 
+		```
 	* Defining column using other columns
 		
 		```python
 		data["total_power"] = data.Attack + data.Defense
 		data.head()
-		``` 
+		```
 5. Index objects and labeled data
 	* index: sequence of label
 	* `print(df.index.name)` : 인덱스 이름 출력
@@ -399,7 +401,7 @@ print(type(data[["HP"]]))   # data frames
 	```python 
 	# Setting index : type 1 is outer type 2 is inner index
 	data1 = data.set_index(["Type 1","Type 2"]) 
-	``` 
+	```
 7. Pivoting data frames
 	* `df.pivot(index,columns,values)` 
 8. Stacking and unstacking data frames
@@ -418,7 +420,7 @@ print(type(data[["HP"]]))   # data frames
 	# according to treatment take means of other features
 	df.groupby("treatment").mean()   # mean is aggregation / reduction method
 	# there are other methods like sum, std,max or min
-	``` 
+	```
 	
 	```python
 	# we can only choose one of the feature

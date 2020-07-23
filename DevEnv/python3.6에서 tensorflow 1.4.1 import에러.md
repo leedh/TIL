@@ -1,6 +1,6 @@
-Tensorflow
+# Tensorflow
 
-개발환경
+## 개발환경
 
 - OS : macOS Sierra 10.12.5
 - Python : 3.6.6
@@ -13,7 +13,6 @@ tensorflow 1.4.1은 Python 3.5까지만 지원한다는 에러가 발생(현재 
 > RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
 
 [JapKe님 블로그](http://im-pine.tistory.com/228)에서 1.4.0을 설치하면 된다고 하신다. (참고로 현재 기준 1.4.1이 최신버전)
-
 
 필자는 macOS Sierra 10.12.5이다.
 [여기](https://github.com/tensorflow/tensorflow/issues/14273)를 참고해서 다음과 같이 1.4.0 다운버전을 설치했다.

@@ -36,9 +36,9 @@ data['animal'] = data['food'].map(str.low).map(meat_to_animal)
 
 
 # lets convert object(str) to categorical and int to float.
-data['Type 1'] = data['Type 1'].astype('category')
+`data['Type 1']` = `data['Type 1'].astype('category')`
 
-data['Speed'] = data['Speed'].astype('float')
+`data['Speed']` = `data['Speed'].astype('float')`
 
 
 + 코드 

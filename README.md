@@ -1,4 +1,6 @@
 # TIL
+[![Blog](https://img.shields.io/badge/blog-leedh.github.io-brightgreen)](https://leedh.github.io/)
+
 ## Today I Learned
 
 "TILs are short Markdown documents (**a few sentences + example code**) explaining *concepts, bits of syntax, commands, or tips we've recently learned*."
@@ -16,5 +18,6 @@
 
 - - - - - - - - - - - - - - - - -
 ### 참조
++ [Cheese10yun](https://github.com/cheese10yun/TIL)
 + [thoughtbot](https://github.com/thoughtbot/til#today-i-learned, "thoughtbot link")
 + [JayJin](https://github.com/milooy/TIL, "JayJin link")

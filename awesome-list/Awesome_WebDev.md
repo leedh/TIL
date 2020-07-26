@@ -1,4 +1,4 @@
-# 풀스택 웹개발 로드맵 Ver 1.0
+# 풀스택 웹개발 로드맵 Ver 1.0 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ![?](https://www.dropbox.com/s/cmeily726mwy0ob/full%20stack%20development%20venn.jpg?dl=0)
 

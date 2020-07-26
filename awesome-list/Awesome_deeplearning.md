@@ -1,4 +1,4 @@
-## 머신러닝/딥러닝공부 로드맵
+## 머신러닝/딥러닝공부 로드맵 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ##### +++공부 커리큘럼+++ 
 
@@ -6,9 +6,7 @@
 
 (한글 자료 기준) [https://www.facebook.com/groups/TensorFlowKR/permalink/485458151795248/](https://www.facebook.com/groups/TensorFlowKR/permalink/485458151795248/?__xts__%5B0%5D=68.ARAUssQgDSLW1tMnFWkjH3KwsNF2dFwEjhylPSPsp__WaLPOz0_nAAJecDRqYLJEWkx_sSJUB6iectocUUqZg75wBgVsuG6PtxJfbvsVZqRlFzqQcaSoej_WTerxPW23WmowLwM&__tn__=K-R)
 
-참고자료
-
-https://bbongcol.github.io/deep-learning-bookmarks/
+참고자료 https://bbongcol.github.io/deep-learning-bookmarks/
 
 
 
@@ -36,7 +34,7 @@ https://bbongcol.github.io/deep-learning-bookmarks/
 
   - [Ryan Tibshirani’s course](https://www.youtube.com/playlist?list=PLjbUi5mgii6AVdvImLB9-Hako68p9MpIC) on convex optimization paired with [Boyd and Lieven’s book](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf) (which is a staple for convex optimization).
 
-    Of course [Boyd’s](https://www.youtube.com/playlist?list=PL3940DD956CDF0622) lectures are great too; I just felt they are a bit slow-paced, and well I’m a bit biased towards CMU professors for obvious reasons.
+  - Of course [Boyd’s](https://www.youtube.com/playlist?list=PL3940DD956CDF0622) lectures are great too; I just felt they are a bit slow-paced, and well I’m a bit biased towards CMU professors for obvious reasons.
 
     
 
@@ -87,7 +85,7 @@ https://bbongcol.github.io/deep-learning-bookmarks/
       1. http://www.edwith.org/bayesiandeeplearning  
       2. PDF : https://github.com/sjchoi86/bayes-nn
    5. CS231N (Comupter Vision분야)
-      1. 스텐포드 딥러닝 강좌로 딥러닝의 처음부터 최근에 뜨고있는 주제들에 대해서 강의가 진행됩니다. 매년 다루는 범위가 다르고, 강의해주시는 분들 실력도 엄청 출중하셔서 영어만 잘한다면 정말 추천드리는 강좌이고 영어를 잘못해도 꼭 들어야하는 강좌라고 생각합니다.
+      1. 스텐포드 딥러닝 강좌. 강추!
    6. Numpy(이거 잘하면 텐서플로우 50% 먹고 들어간다)
       1. [최성철 교수님 numpy 강의](https://www.youtube.com/playlist?list=PLBHVuYlKEkULZLnKLzRq1CnNBOBlBTkqp)
       2. Zen of Numpy
@@ -126,33 +124,36 @@ https://bbongcol.github.io/deep-learning-bookmarks/
 
 
 
-### 번외) 강화학습 공부
+### 번외) 강화학습 공부 
 
-1. **Richard S. Sutton(셔튼)**의 <Reinforcement Learning. second edition>이 가장 대표적인 서적(2018년도에 10년만에 개정판 출시)
+#### 참고 [awesome-rl](https://github.com/aikorea/awesome-rl/blob/master/README.md)
 
-   1. 책 링크
-      - https://drive.google.com/file/d/1opPSz5AZ_kVa1uWOdOiveNiBFiEOHjkG/view?fbclid=IwAR3xXy7uupDif1Cq5YfMyHYgXmjQI_32whX2JjDDighmA1iaXG8pl-D-pGM
-   2. **Richard S. Sutton**의 강의동영상과 강의노트
-      1. https://drive.google.com/drive/folders/0B-WvrETGtkesN29sV1g3aXZ1Z0U?fbclid=IwAR2vZZFk1rMmY0gBXv3Uh_gpMh753zOHpJ6QgqKgXyHpm9ivkbTzdqfBNag
-   3. Deepmind의 **David Silver**의 강의 동영상과 강의 노트
-      1. 수업 페이지 : http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
-      2. 강의동영상 : https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ
-      3. 강의노트 : http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
-   4. 모두연 이웅원님 강화학습 튜토리얼
-      1. https://legacy.gitbook.com/book/dnddnjs/rl/details
+1. [모두를 위한 RL - 김성훈 교수님](https://www.youtube.com/playlist?list=PLlMkM4tgfjnKsCWav-Z2F-MMFRx-2gMGG&fbclid=IwAR0MSlD4mtgslkUqT0qR51UZ8GqDMYNbZtlehZSuiFoiX_me-1owcKA8qq8)
+
+2. **Richard S. Sutton(셔튼)**의 <Reinforcement Learning. second edition>이 가장 대표적인 서적(2018년도에 10년만에 개정판 출시)
+
+   - [책 링크](https://drive.google.com/file/d/1opPSz5AZ_kVa1uWOdOiveNiBFiEOHjkG/view?fbclid=IwAR3xXy7uupDif1Cq5YfMyHYgXmjQI_32whX2JjDDighmA1iaXG8pl-D-pGM)
+
+3. **Richard S. Sutton**의 강의동영상과 강의노트
+
+   - https://drive.google.com/drive/folders/0B-WvrETGtkesN29sV1g3aXZ1Z0U?fbclid=IwAR2vZZFk1rMmY0gBXv3Uh_gpMh753zOHpJ6QgqKgXyHpm9ivkbTzdqfBNag
+
+4. Deepmind의 **David Silver**의 강의 동영상과 강의 노트
+   - 수업 페이지 : http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
+   - 강의동영상 : https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ
+   - 강의노트 : http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html
+
+5. 모두연 이웅원님 강화학습 튜토리얼
+
+   1. https://legacy.gitbook.com/book/dnddnjs/rl/details
+
+   
 
 
 
-https://www.facebook.com/groups/TensorFlowKR/permalink/531360767204986/
 
-지난 주말에 풀 타임으로 강화학습을 공부해 보았는데요.
 
-몇 개월 전에 김성훈 교수님 강좌 듣고 미루어 두었다가 맘 먹고 달려보았습니다.
 
-그 경험이 도움이 될까 하여 제 나름대로 자료 보는 순서를 정리해서 글 올려봅니다.
-
-\1. 역시나 ‘모두를 위한 RL’ 강좌를 먼저 듣는 게 최선인 듯 합니다. 저는 기억을 되살리기 위해 Lecture7:DQN을 다시 들었습니다.
-[https://www.youtube.com/playlist…](https://www.youtube.com/playlist?list=PLlMkM4tgfjnKsCWav-Z2F-MMFRx-2gMGG&fbclid=IwAR0MSlD4mtgslkUqT0qR51UZ8GqDMYNbZtlehZSuiFoiX_me-1owcKA8qq8)
 
 \2. 그 다음에 Naver Engineering에 올라와 있는 곽동현 님의 'Introduction of Deep Reinforcement Learning'을 들었습니다. 전반적인 설명이 매우 도움이 많이 됩니다.
 
@@ -252,7 +253,7 @@ PR-029- Apprenticeship Learning via Inverse Reinforcement Learning
 - Keras 기초 강좌
   - https://tykimos.github.io/lecture/
 
-참고
+#### 참고
 
 - NYU Data center
   - https://cds.nyu.edu/our-people/faculty/
@@ -290,6 +291,7 @@ PR-029- Apprenticeship Learning via Inverse Reinforcement Learning
 
 ### 참고
 
+- https://www.facebook.com/groups/TensorFlowKR/permalink/531360767204986/
 - https://www.facebook.com/groups/TensorFlowKR/permalink/740104162997311/
 - [https://www.facebook.com/groups/TensorFlowKR/permalink/490430184631378/](https://www.facebook.com/groups/TensorFlowKR/permalink/490430184631378/?__xts__%5B0%5D=68.ARAfnCkUiT1UMWVjSqCpuY7OvdUzzvOMV270jxDEMaxyTLQbGaS39dCC0zBwwaj2cj1O1yqGVv88weSXQvaVHgc6n2hi0QUp3Jz3U9ZJ5Jv5EaDWxzweplsVjuEh7Jc3fGiw-x8&__tn__=KH-R) 
 

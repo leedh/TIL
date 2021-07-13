@@ -1,10 +1,10 @@
 # VIM plugin
 
-github에 올라온 vim 플러그인 repository를 기본으로 삼아 나만의 vim plugin을 만들자
+vim 에디터에 다양한 플러그인을 설치해서 사용하자.
 
+플러그인을 사용하는 방법은 자동과 수동 2가지 방법이 있다.
 
-
-## amix의 vimcrc
+## amix의 vimrc
 
 [amix의 vimrc repository](https://github.com/amix/vimrc)에는 두 가지 버전의 vim이 있다.
 
@@ -28,9 +28,83 @@ autocmd VimEnter * NERDTree
 
 
 
-## '유튜버 개발자의 맛'님의 추천 vim 플러그인
 
-[개발자의 맛님의 vimrc](https://github.com/leedh/TIL/blob/master/DevEnv/vimrc.vim)이 추천해준 플러그인 8가지를 사용한다.
+
+## 내맛대로 플러그인 셋팅
+
+amix의 vimrc를 사용해도 되지만, 그보다는 내가 직접 셋팅해서 사용해야겠다. 전체적으로 [이 블로그](https://asung123456.tistory.com/6)를 참고했다.
+
+1. vim 설치 
+
+(리눅스의 경우) 당연하지만 새 컴퓨터에 vim을 설치하자.(macOS는 vim이 기본 내장되어 있음)
+
+```shell
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install vim
+```
+
+2. vundle 설치
+
+vundle은 vim에 플러그인을 설치하기 위한 관리자이다.
+
+자세한 설치방법은 [이곳](https://asung123456.tistory.com/31?category=746927)을 참고하자.
+
+먼저, git을 통해 vundle을 설치한다.
+
+```shell
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+만약 git이 없다면 아래처럼 설치해준다.
+
+```shell
+$ sudo apt-get install git
+```
+
+
+
+3. .vimrc 설정
+
+이제 `.vimrc` 파일에 기본적인 셋팅을 위해 아래의 코드를 복사해준다.
+
+```
+set nocompatible 
+filetype off 
+set rtp+=~/.vim/bundle/Vundle.vim 
+call vundle#begin() 
+Plugin 'gmarik/Vundle.vim' "required
+Plugin 'tpope/vim-fugitive' "required 
+call vundle#end()            
+filetype plugin indent on " Put your non-Plugin stuff after this line
+```
+
+복사해주고 나면, 아래의 플러그인 설치명령어를 차례대로 입력한다.
+
+```
+:w  
+:source %
+:PluginInstall
+```
+
+그 다음 플러그인과 무관한 설정들을 추가해주면 된다.
+
+```
+syntax enable #syntax highlighting
+set nu # add line numbers
+set smartindent # make smart indent
+set tabstop=4 # tab width as 4 (default 8)
+set shiftwidth=4 
+set expandtab
+set cindent "c 타입의 인덴트
+set mouse=a "마우스 커서 사용 가능
+```
+
+
+
+플러그인을 추가하기 위해서는 `call vundle#begin()`와 `call vundle#end()` 사이에 코드를 추가한 뒤에 플러그인 설치명령어를 차례로 입력하면 된다.
+
+'유튜버 개발자의 맛'이 추천해주신 플러그인 8 가지를 [개발자의 맛님의 vimrc](https://github.com/leedh/TIL/blob/master/DevEnv/vimrc.vim)을 참고하여 사용한다.
 
 \* 플러그인 링크 
 
@@ -46,11 +120,23 @@ autocmd VimEnter * NERDTree
 
 
 
+2번 tagbar의 경우 ctags가 설치되어 있어야한다. [참고](https://seulcode.tistory.com/279)
+
+```shell
+# macOS
+$ brew install ctags
+
+# linux 
+$ sudo apt install ctags
+```
+
 
 
 
 
 ## 참고
+
+[vim 에디터 개발환경](https://edward0im.github.io/technology/2020/09/17/vim/)
 
 [[Linux/Mac]vim을 IDE처럼! zsh 설정부터 vim 플러그인 설정까지 총정리](https://yunmorning.tistory.com/16)
 

@@ -18,6 +18,7 @@
 
 - - - - - - - - - - - - - - - - -
 ### 참조
++ [jbranchaud](https://github.com/jbranchaud/til) :clap:
 + [Cheese10yun](https://github.com/cheese10yun/TIL)
-+ [thoughtbot](https://github.com/thoughtbot/til#today-i-learned, "thoughtbot link")
-+ [JayJin](https://github.com/milooy/TIL, "JayJin link")
++ [thoughtbot](https://github.com/thoughtbot/til#today-i-learned)
++ [JayJin](https://github.com/milooy/TIL)
